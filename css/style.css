@@ -8,7 +8,6 @@ body {
     width: 100%;
     margin: 0px;
     padding: 0px;
-    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 #main_container {
@@ -35,6 +34,7 @@ body {
     align-items: end;
     justify-items: center;
     margin-top: 18vh;
+    min-height: 73px;
 }
 
 #create_account_button {
